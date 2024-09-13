@@ -20,4 +20,7 @@ public class Account {
         }
         balance -= money;
     }
+    void depositRollback(long money) {
+        this.balance -= money;
+    }
 }
